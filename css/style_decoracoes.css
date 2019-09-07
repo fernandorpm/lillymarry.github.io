@@ -1,0 +1,101 @@
+@font-face {
+    font-family: montmd;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montreg;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: montmd;
+}
+
+.titlemenu {
+    color: white;
+    font-family: montmd;
+}
+
+.titlemenu2 {
+    font-family: montmd;
+}
+
+.subtitlemenu {
+    color: white;
+    font-family: montreg;
+}
+
+.div_margin {
+    margin-top: 60px;
+    background-image: url("../decor/decor2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row_deco {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.test {
+    height: 40px;
+}
+
+.pic_deco {
+    background-image: url("../decor/decor14.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pic_deco_2 {
+    background-image: url("../decor/decor7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pic_deco_3 {
+    background-image: url("../decor/newdecor3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pic_deco_4 {
+    background-image: url("../decor/newdecor5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pic_deco_5 {
+    background-image: url("../decor/newdecor9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 764px) {
+    #pic_deco2 {
+        display: none
+    }
+}
+
+.card_deco {
+    background-color: white;
+    font-family: montreg;
+    border-left: 5px solid #ba124d;
+}
+
+
+
+.navbar-dark {
+    background-color: #ba124d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}

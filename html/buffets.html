@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style_buffets.css" />
+    <title>Buffets - Lilly Marry</title>
+</head>
+
+<body>
+    <nav class="hidden-lg navbar navbar-light navbar-expand-lg fixed-top p-0 pt-5" id="navbar_buffet_mobile">
+        <div class="submenu_align">a</div>
+        <div class="container text-right p-3 pt-4">
+            <a data-toggle="collapse" href="#menu_buffet">Lista de Buffets</a></button>
+
+            <div class="pt-4 collapse" id="menu_buffet">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" onclick="showHide()">
+                        <a class="nav-link pt-2 pb-2" href="#">Bebidas</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide2()">
+                        <a class="nav-link pt-2 pb-2" href="#">Entradas</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide3()">
+                        <a class="nav-link pt-2 pb-2" href="#">Refeições</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide4()">
+                        <a class="nav-link pt-2 pb-2" href="#">Sobremesas</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="hidden-lg navbar navbar-light navbar-expand-lg fixed-top p-0 pt-5" id="navbar_buffet_desktop">
+        <div class="container p-2 pt-4">
+
+            <div class="pt-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" onclick="showHide()">
+                        <a class="nav-link" href="#">Bebidas</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide2()">
+                        <a class="nav-link" href="#">Entradas</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide3()">
+                        <a class="nav-link" href="#">Refeições</a>
+                    </li>
+                    <li class="nav-item" onclick="showHide4()">
+                        <a class="nav-link" href="#">Sobremesas</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top p-0">
+        <div class="container pl-3">
+            <span class="navbar-brand mb-0 h1">
+                <figure class="test">
+                    <a href="../index.html"><img src="../png/lillymenu.png" width="60%" alt=""></a>
+                </figure>
+            </span>
+
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link  pt-3 pb-3" href="decoracoes.html">Decorações</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pt-3 pb-3" href="buffets.html">Buffets <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-3" href="ambientes.html">Ambientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-3" href="finaisfelizes.html">Finais Felizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-3" href="nossahistoria.html">Nossa História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 pb-3" href="contatenos.html">Contate-nos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="div_margin p-5">
+        <div class="container">
+            <h2 class="titlemenu">Buffets</h2>
+            <p class="subtitlemenu">Contamos com a mais incrível seleção de pratos para satisfazer vocês e seus
+                convidados neste dia especial!</p>
+        </div>
+    </div>
+
+    <main class="container buffet_bebidas" id="div_bebidas">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Champagne Montevidel.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Champagne Sakura</h3>
+                    <p>Champagne feito nos campos floridos japoneses, extraído das árvores de Sakura</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Champagne Moet.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Champagne Moet</h3>
+                    <p>Um dos melhores Champagnes do mundo, feito na França, a capital do Amor</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Coquetéis com vodka.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Drinks com Vodka</h3>
+                    <p>Batidas com licores das mais diversas cores para aqueles jovens de espíritos</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Bar de coquetéis completo.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Bar de Coquetéis</h3>
+                    <p>O mais completo bar de drinks do Brasil, com 2 barman presentes durante toda a festa</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Cerveja preta.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Cerveja Preta</h3>
+                    <p>A doce e amarga cerveja preta, para os amantes de uma boa cerveja artesanal</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Uísque.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Whisky </h3>
+                    <p>Os melhores Whiskies do mundo, selecionados especialmente para você</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Vinho do porto.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Vinho do Porto</h3>
+                    <p>O delicioso Vinho do Porto, mundialmente reconhecido para adoçar a festa</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Caipirinha.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Caipirinha</h3>
+                    <p>A tradicional bebida brasileira para animar a todos com seu carisma</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <main class="container buffet_entrada" id="div_buffet">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Salada Cinzeladura (turca).jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Salada Cinzeladura</h3>
+                    <p>Deliciosa salada feita com finas fatias de peito de frango coberta com delicioso queijo Goett</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Melão cantalupo.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Melão Cantalupo</h3>
+                    <p>Fatias de melão e abóbora servidos com salame americano, com uma incrível miscelânia de sabor</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Queijos diversos.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Mesa de Queijos</h3>
+                    <p>Os melhores queijos diretamente da Suíça para a sua mesa, servidos em cubos como petiscos</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Salada Árabe.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Salada Árabe</h3>
+                    <p>Tradicional salada feita com berinjela e pimentão, com um forte e delicioso tempeiro apimentado</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Sashimi.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Sashimis</h3>
+                    <p>Cortes finos de salmão do mar Mediterrâneo, temperados com gergilim e molho Shoyu e cevicci</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Medalhão de carpaccio com melão.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Medalhão de Melão</h3>
+                    <p>Delicioso melão grelhado em fogo médio e enrolado com carpaccio de presunto e temperado com pimenta</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Mesa de Frios (peixes).jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Mesa de Frios</h3>
+                    <p>Mesa com os mais diversos frios, desde salame até salmão, para os amantes de carpaccio e um forte sabor</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Lanches naturais.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Lanches Naturais</h3>
+                    <p>Lanches naturais recheados com salada, patê de atum, frango ou ricota e tomates, para não sair da dieta</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+    <main class="container buffet_principal" id="div_principal">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Buffet Espanhol.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Refeição Espanhola</h3>
+                    <p>Uma fantástica combinação de verduras e carnes com incríveis temperos com muito queijo e sabor</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Buffet Japonês.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Refeição Japonesa</h3>
+                    <p>Quem não ama um rodízio japonês? O mais completo rodízio para os amantes da culinária nipônica</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Buffet Tailandês.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Refeição Tailandesa</h3>
+                    <p>Agilidade, volume e gingado, tudo isso unido com muito frango, massa e requintes tailandeses</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Buffet Árabe.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Refeição Árabe</h3>
+                    <p>Um Árabe demonstra o seu valor com a refeição que serve. O melhor e mais completo buffet árabe</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <main class="container buffet_sobremesa" id="div_sobremesa">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Minicakes Gourmet.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Minicakes Mousset</h3>
+                    <p>Delicados minicakes cobertos de mousse de morango e chocolate feitos com todo o carinho do mundo</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Tart di Merengué.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Tart di Merengué</h3>
+                    <p>Pequenos merengues feitos para os amantes de morango, com chantilly e e leite condensado</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Tortille de Morango.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Tortille de Morango</h3>
+                    <p>Tortilles de chocolate meio amargo recheadas com morango em cubos e castanhas do pará picadas</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Mesa dos Sonhos.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Mesa dos Sonhos</h3>
+                    <p>Uma mesa repleta dos mais diversos doces de padaria, como sonhos, donuts, bolos e mousses</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Mousses diversas.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Mousses Diversas</h3>
+                    <p>As mais diversas mousses presentes em diversos países para trazer variedade ao seu casamento</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Cupcakes.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Cupcakes Gourmet</h3>
+                    <p>Cupcakes deliciosos e molhadinhos, feitos com muito amor e carinho, cobertos com chantilly</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 pt-4 pb-2">
+                <img src="../buffet/Biscoitos Doces Sortidos.jpg" width="100%" alt="">
+                <div class=" buffet_menu p-3">
+                    <h3>Biscoitos Sortidos</h3>
+                    <p>Um compilado de biscoitos crocantes dos mais diversos tipos, desde chocolate a pistache</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer class="p-3" style="color:#77728a ;background-color: #343140;text-align: center">
+        Lilly Marry® todos os direitos reservados. Website desenvolvido por <a style="color:white" href="https://fernandorpm.github.io" target="_blank">Fernando R P Marques</a>.
+    </footer>
+
+
+    <script>
+        const elemento1 = document.querySelector('#div_bebidas')
+        elemento2 = document.querySelector('#div_buffet')
+        elemento3 = document.querySelector('#div_principal')
+        elemento4 = document.querySelector('#div_sobremesa')
+        elemento5 = document.querySelector('#menu_buffet2')
+
+        elemento1.hidden = false
+        elemento2.hidden = true
+        elemento3.hidden = true
+        elemento4.hidden = true
+        elemento5.hidden = true
+
+        function showHide() {
+            if (elemento1.hidden) {
+                elemento1.hidden = false
+
+                elemento2.hidden = true
+                elemento3.hidden = true
+                elemento4.hidden = true
+                elemento5.hidden = true
+            } else {
+                elemento1.hidden = true
+            }
+        }
+
+        function showHide2() {
+            if (elemento2.hidden) {
+                elemento2.hidden = false
+
+                elemento1.hidden = true
+                elemento3.hidden = true
+                elemento4.hidden = true
+                elemento5.hidden = true
+            } else {
+                elemento2.hidden = true
+
+            }
+        }
+
+        function showHide3() {
+            if (elemento3.hidden) {
+                elemento3.hidden = false
+
+                elemento2.hidden = true
+                elemento1.hidden = true
+                elemento4.hidden = true
+                elemento5.hidden = true
+            } else {
+                elemento3.hidden = true
+            }
+        }
+
+        function showHide4() {
+            if (elemento4.hidden) {
+                elemento4.hidden = false
+
+                elemento2.hidden = true
+                elemento3.hidden = true
+                elemento1.hidden = true
+                elemento5.hidden = true
+            } else {
+                elemento4.hidden = true
+            }
+        }
+
+        function showHide5() {
+            if (elemento5.hidden) {
+                elemento5.hidden = false
+
+                elemento2.hidden = true
+                elemento3.hidden = true
+                elemento4.hidden = true
+                elemento1.hidden = true
+            } else {
+                elemento5.hidden = true
+            }
+        }
+
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: montmd;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montreg;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+.div_margin {
+    margin-top: 60px;
+    background-image: url("../ambientes/ambiente0.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #ba124d;
+}
+
+.titlemenu {
+    color: white;
+    font-family: montmd;
+}
+
+.subtitlemenu {
+    color: white;
+    font-family: montreg;
+}
+
+.bg1 {
+    background-image: url("../ambientes/ambiente3.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.bg2 {
+    background-image: url("../ambientes/ambiente2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg3 {
+    background-image: url("../ambientes/ambiente1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.border_ambientes {
+    border-bottom: 5px solid #ba124d;
+}
+
+.darkbg {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-family: montmd;
+}
+
+p {
+    font-family: montreg;
+}
+
+
+@media (min-width: 764px) {
+    #bg1 {
+        display: none
+    }
+    #bg2 {
+        display: none
+    }
+    #bg3 {
+        display: none
+    }
+}
+
+.test {
+    height: 40px;
+}
+
+.navbar-dark {
+    background-color: #ba124d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}

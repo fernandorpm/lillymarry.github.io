@@ -1,0 +1,132 @@
+@font-face {
+    font-family: montmd;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montreg;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+.contatenos_font {
+    font-family: montreg;
+    color: #343140;
+}
+
+.form_dark {
+    color: white;
+}
+
+.div_margin {
+    margin-top: 60px;
+    background-image: url("../casamento/casamento7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.test {
+    height: 40px;
+}
+
+.main_2 {
+    background-image: url("../casamento/casamento13.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contatenos_font_title {
+    font-family: montmd;
+    font-size: 22px;
+    color: #343140;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.titlemenu {
+    color: white;
+    font-family: montmd;
+}
+
+.subtitlemenu {
+    color: white;
+    font-family: montreg;
+}
+
+.nav-link {
+    font-family: montreg;
+    font-size: 14px;
+}
+
+.submenu_align {
+    height: 15px;
+}
+
+.input_form {
+    display: block; 
+}
+
+
+.buffet_menu {
+    background-color: white;
+    border-top: solid #ba124d 4px;
+    box-shadow: 0px 2px 5px #c8c8ca;
+}
+
+.offer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+    background-color: #343140;
+    border-color: #343140;
+}
+
+.btn:hover {
+    background-color: #ba124d;
+    border-color:#ba124d;
+}
+
+.btn2 {
+    background-color: #ba124d;
+    border-color:#ba124d;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #ba124d;
+    font-family: montmd;
+}
+
+
+label, .btn {
+    font-family: montmd;
+}
+
+.test {
+    height: 40px;
+}
+
+.navbar-dark {
+    background-color: #ba124d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 993px) {
+    #navbar_buffet_mobile {
+        display: none
+    }
+}
+
+@media (max-width: 992px) {
+    #navbar_buffet_desktop {
+        display: none
+    }
+}

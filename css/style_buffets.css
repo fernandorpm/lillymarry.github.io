@@ -1,0 +1,82 @@
+@font-face {
+    font-family: montmd;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montreg;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+.h1 {
+    font-family: gogoia;
+    font-size: 28px;
+}
+
+.titlemenu {
+    color: white;
+    font-family: montmd;
+}
+
+.subtitlemenu {
+    color: white;
+    font-family: montreg;
+}
+
+.nav-link {
+    font-family: montreg;
+    font-size: 14px;
+}
+
+.submenu_align {
+    height: 15px;
+    color: white;
+    width: 300px;
+}
+
+.div_margin {
+    margin-top: 120px;
+    background-image: url("../buffet/1 CAPA.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.buffet_menu {
+    background-color: white;
+    border-top: solid #ba124d 4px;
+    box-shadow: 0px 2px 5px #c8c8ca;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.test {
+    height: 40px;
+}
+
+.navbar-dark {
+    background-color: #ba124d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 993px) {
+    #navbar_buffet_mobile {
+        display: none
+    }
+}
+
+@media (max-width: 992px) {
+    #navbar_buffet_desktop {
+        display: none
+    }
+}

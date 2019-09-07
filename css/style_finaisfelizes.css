@@ -1,0 +1,96 @@
+@font-face {
+    font-family: montmd;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montreg;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: montmd;
+}
+
+.titlemenu {
+    color: white;
+    font-family: montmd;
+}
+
+.subtitlemenu {
+    color: white;
+    font-family: montreg;
+}
+
+.div_margin {
+    margin-top: 60px;
+    background-image: url("../couple/couple0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.test {
+    height: 40px;
+}
+
+.text-light {
+    font-family: montreg;
+    font-size: 14px;
+}
+
+.client1 {
+    background-image: url("../couple/couple1.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.client2 {
+    background-image: url("../couple/couple2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.client3 {
+    background-image: url("../couple/couple3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.client4 {
+    background-image: url("../couple/couple4.jpg");
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.client5 {
+    background-image: url("../couple/couple5.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.client6 {
+    background-image: url("../couple/couple6.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-dark {
+    background-color: #ba124d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
